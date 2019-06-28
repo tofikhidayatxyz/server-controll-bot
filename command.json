@@ -8,6 +8,12 @@
 			} , {
 				"name":"smk",
 				"path":"../smk"
+			} , {
+				"name":"onokids",
+				"path":"../onokids"
+			} , {
+				"name":"web-point",
+				"path":"../web-point"
 			}
 		]
 	},{
