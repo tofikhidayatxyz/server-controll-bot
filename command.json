@@ -1,0 +1,31 @@
+[
+	{
+		"name":"dir",
+		"list":[
+			{
+				"name":"base",
+				"path":"/"
+			} , {
+				"name":"smk",
+				"path":"../smk"
+			}
+		]
+	},{
+		"name":"git",
+		"list" :[
+			{
+				"name" : "smk",
+				"path" : "../smk",
+				"repo" : "github.com/tofikhidayat/smk"
+			} , {
+				"name" : "web-point",
+				"path" : "../web-point",
+				"repo" : "bitbucket.org/syntac_willy/web-point.git"
+			} , {
+				"name" : "onokids",
+				"path" : "../onokids",
+				"repo" : "github.com/tofikhidayat/onokids.git"
+			}
+		]
+	} 
+]

@@ -1,0 +1,17 @@
+{
+  "name": "server-controll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "simple-git": "^1.116.0",
+    "slimbot": "^0.8.7"
+  }
+}
