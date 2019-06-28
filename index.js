@@ -50,7 +50,7 @@ try {
 			let tmp =  msg.text.split("@");
 			let dir  =  tmp[1].split(" ").join("")
 			let cwd  =  tmp[2].split(" ").join("");
-			let args  =  tmp[3];
+			let args  =  tmp[3] ? tmp[3] : " ";
 			let remote;
 			for (var i = 0; i < command[1]["list"].length; i++) {
 				let config  = command[1]["list"][i];
@@ -58,7 +58,7 @@ try {
 					dir  =  path.join(__dirname,config["path"]);
 					remote  =  `https://${process.env.GIT_USER}:${process.env.GIT_PASS}@${config.repo}`;
 					if (cwd == "pull") {
-						git(dir).pull(remote, "master", "--force" ).then((stat)=> {
+						git(dir).pull(remote, "master", args ).then((stat)=> {
 							let push  = `         Files : ${JSON.stringify(stat.files)}
 										 Insertions : ${JSON.stringify(stat.insertions)}
 										 Deletions : ${JSON.stringify(stat.deletions)}

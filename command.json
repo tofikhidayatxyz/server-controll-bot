@@ -25,6 +25,10 @@
 				"name" : "onokids",
 				"path" : "../onokids",
 				"repo" : "github.com/tofikhidayat/onokids.git"
+			} , {
+				"name":"server",
+				"path":"/",
+				"repo":"github.com/tofikhidayat/server-controll-bot.git"
 			}
 		]
 	} 
