@@ -14,6 +14,9 @@
 			} , {
 				"name":"web-point",
 				"path":"../web-point"
+			}, {
+				"name":"iot",
+				"path":"../node/iot-server"
 			}
 		]
 	},{
@@ -34,6 +37,10 @@
 			} , {
 				"name":"server",
 				"path":"/",
+				"repo":"github.com/tofikhidayat/server-controll-bot.git"
+			} , {
+				"name":"iot",
+				"path":"../node/iot-server",
 				"repo":"github.com/tofikhidayat/server-controll-bot.git"
 			}
 		]
