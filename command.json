@@ -36,12 +36,12 @@
 				"repo" : "github.com/tofikhidayat/onokids.git"
 			} , {
 				"name":"server",
-				"path":"/",
+				"path":"./",
 				"repo":"github.com/tofikhidayat/server-controll-bot.git"
 			} , {
 				"name":"iot",
 				"path":"../node/iot-server",
-				"repo":"github.com/tofikhidayat/server-controll-bot.git"
+				"repo":"https://github.com/tofikhidayat/iot-server.git"
 			}
 		]
 	} 
