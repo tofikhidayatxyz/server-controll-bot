@@ -41,7 +41,7 @@
 			} , {
 				"name":"iot",
 				"path":"../node/iot-server",
-				"repo":"https://github.com/tofikhidayat/iot-server.git"
+				"repo":"github.com/tofikhidayat/iot-server.git"
 			}
 		]
 	} 
