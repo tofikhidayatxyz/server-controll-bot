@@ -15,6 +15,9 @@
 				"name":"web-point",
 				"path":"../web-point"
 			}, {
+				"name":"server",
+				"path":"./" 
+			}, {
 				"name":"iot",
 				"path":"../node/iot-server"
 			}
