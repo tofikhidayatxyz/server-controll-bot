@@ -20,6 +20,9 @@
 			}, {
 				"name":"iot",
 				"path":"../node/iot-server"
+			}, {
+				"name":"sqira",
+				"path":"../sqira"
 			}
 		]
 	},{
@@ -45,6 +48,10 @@
 				"name":"iot",
 				"path":"../node/iot-server",
 				"repo":"github.com/tofikhidayat/iot-server.git"
+			} , {
+				"name":"sqira",
+				"path":"../sqira",
+				"repo":"https://github.com/tofikhidayat/sqira.git"
 			}
 		]
 	} 
